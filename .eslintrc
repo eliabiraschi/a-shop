@@ -1,0 +1,16 @@
+{
+  "extends": ["standard","standard-react"],
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "plugins": [
+    "react","jsx"
+  ],
+  "rules": {
+    "jsx/uses-factory": [1, {"pragma": "JSX"}],
+    "jsx/mark-used-vars": 1
+  },
+  "globals": {
+  }
+}

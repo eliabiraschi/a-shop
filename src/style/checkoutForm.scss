@@ -1,0 +1,26 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .shippingDetails{
+    .inputsList {
+      width: 30em;
+      display: flex;
+      flex-direction: column;
+    }
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      .submitButton {
+        width: 45%;
+        background-color: #4CAF50;
+      }
+      .saveDetailsButton {
+        width: 45%;
+        background-color: #008CBA;
+      }
+    }
+  }
+}

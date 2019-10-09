@@ -1,0 +1,14 @@
+.root {
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 3%;
+  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  #checkout-overview {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}

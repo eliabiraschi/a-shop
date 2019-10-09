@@ -1,0 +1,26 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 0.5em 0.5em;
+  border-radius: 0.4em;
+  border: 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  outline: none;
+  box-shadow: none;
+  opacity: 0.8;
+  &:hover {
+    opacity: 0.9;
+  }
+  &:focus {
+    outline: none;
+  }
+  &:active {
+    opacity: 1;
+  }
+}

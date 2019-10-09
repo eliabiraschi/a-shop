@@ -1,0 +1,10 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  .label {
+    margin-right: 0.5em;
+  }
+}
